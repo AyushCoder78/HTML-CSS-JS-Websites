@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: lato;
+    overflow: hidden;
+}
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.logo img{
+    width: 70px;
+}
+header{
+    background: url(image.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav-area{
+    list-style: none;
+    margin: auto;
+}
+.nav-area li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.nav-area li a{
+    text-decoration: none;
+    color: #9e06f7;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.nav-area li a:hover{
+    background: #069ef7;
+    color: white;
+    transition: 0.3s linear;
+}
+.welcome-text{
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.welcome-text h1{
+    text-align: center;
+    background-image: linear-gradient(to right top, #49eb3a, #c4cb00, #fda622, #ff8663, #ff7a98, #f977b0, #ea7ac9, #d380e0, #bf7de7, #a77bef, #897af5, #5f7afb);;
+    text-transform: uppercase;
+    color: rgb(11, 86, 247);
+    width: 350px;
+    font-size: 38px;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 170px;
+    letter-spacing: 5px;
+}
+.welcome-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    margin-bottom: 20px;
+    color:rgb(12, 10, 2);
+}
+.welcome-text a{
+    border: 1px solid rgb(6, 250, 6);
+    border-radius: 8px;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: rgb(6, 250, 6);
+    font-weight: 900;
+}
+.welcome-text a:hover{
+    background: rgb(6, 250, 6);
+    color: black;
+    transition: 0.4s linear;
+}
+
+@media (max-width: 600px){
+    .wrapper{
+        width: 100%;
+        flex-direction: column;
+    }
+    .welcome-text{
+        width: 100;
+        
+    }
+    .welcome-text h1{
+        margin-left: 55px;
+        font-size: 28px;
+    }
+   .logo img{
+    width: 60px;
+    margin-top: 10px;
+   }
+   .nav-area{
+    float: none;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+   .nav-area li{
+    margin-left: 0;
+    
+   }
+   .nav-area li a{
+    font-size: 14px;
+   }
+}
