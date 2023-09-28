@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WEBSITE 1</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+
+		}
+		header{
+			width: 100%;
+			height: 100vh;
+			background: linear-gradient(to right, rgba(253,121,168,0.4) 70%, white 30%);
+		}
+		.top-nav{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 6px 50px;
+		}
+		.s-icon i{
+			padding: 3px 5px;
+			border-radius: 5px;
+			font-size: 18px;
+			color: black;
+			margin: 0 3px;
+			transition: 0.3s linear;
+		}
+		.s-icon i:first-child{
+			background: #e84393;
+			color: white;
+			padding: 3px 5px;
+		}
+		.s-icon i:hover{
+			background: #e84393;
+			color: white;
+			padding: 3px 5px;
+			font-size: 22px;
+			margin-top: -4px;
+		}
+		.email:hover{
+			color: red;
+			cursor: pointer;
+		}
+		.navbar{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 7px 70px;
+		}
+		.logo{
+			font-size: 40px;
+			color: black;
+			font-weight: bold;
+			padding: 5px 10px;
+			transition: 0.3s linear;
+		}
+		.logo:hover{
+			border: 1px solid #e84393;
+			padding: 3.5px 8px;
+			border-radius: 8px;
+			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		}
+		.menu a{
+			margin: 0 20px;
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+			font-family: sans-serif;
+			padding: 5px 10px;
+			border-radius: 5px;
+			transition: 0.4s linear;
+			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		}
+		.menu a:hover{
+			background: #e84393;
+			color: white;
+			padding: 5px 10px;
+			border-radius: 5px;
+		}
+		.menu a:first-child{
+			background: #e84393;
+			color: white;
+		}
+		.container{
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			text-align: center;
+		}
+		.left{
+			margin: 0 55px;
+			flex-basis: 50%;
+		}
+		.right img{
+			width: 430px;
+			height: 450px;
+			flex-basis: 50%;
+			margin-right: 15px;
+			margin-top: 30px;
+			box-shadow: -4px -2px 25px 4px black;
+			transition: 0.4s linear;
+		}
+		
+		.left h1{
+			font-size: 50px;
+			margin-bottom: 40px;
+			font-family: roboto;
+		}
+		.left span{
+			background: #e84393;
+			color: white;
+			padding: 1px 5px;
+			border-radius: 5px;
+		}
+		.left p{
+			font-size: 20px;
+			text-align: justify;
+			margin-bottom: 40px;
+		}
+		.left button{
+			padding: 8px 14px;
+			border-radius: 5px;
+			background: #e84393;
+			color: white;
+			border: none;
+			outline: none;
+			font-size: 16px;
+			margin: 8px;
+			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+			cursor: pointer;
+			transition: 0.5s linear;
+		}
+		.left button:hover{
+			padding: 6px 12px;
+			border-radius: 5px;
+			background: transparent;
+			color: black;
+			border: 2px solid #e84393;
+			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+			cursor: pointer;
+
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="top-nav">
+			<div class="s-icon">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-whatsapp"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-google"></i>
+			</div>
+			<div class="email">
+				<i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;
+				Email: ayushman@gmail.com
+			</div>
+		</div>
+		<div class="navbar">
+			<div class="logo">
+				speed-X
+			</div>
+			<div class="menu">
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Cotact Us</a>
+				<a href="#">Course</a>
+				<a href="#">Team</a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="left">
+				<h1>We provide Best Quality <span>Designs</span></h1>
+				<p>We are always ready to help you feel free to connect with us. We have well experienced team of Graphic designers, web developers, web designers SEO experts.</p>
+			    <button>Like Share & Subscribe</button>
+			    <button>Cotact Us</button>
+		    </div>
+		<div class="right">
+			<img src="tree-nature.jpg">
+		</div></div>
+	</header>
+</body>
+</html>
